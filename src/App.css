@@ -50,7 +50,7 @@
   transition: 0.3s;
   border: 1px solid #999999;
 }
-.login-form button{
+.login-form button {
   margin-top: 45px;
   height: 50px;
   width: 400px;
@@ -68,3 +68,77 @@
   background:#E58A8A ;
 }
 /*=====Registration/Login end======*/
+
+/*=====Banner start======*/
+.home{
+  background: url(./../public/image/img.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home h5{
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #712B75;
+}
+.home h1{
+  font-weight: 800;
+  font-family: sans-serif;
+  color: #FF8C8C;
+}
+.home p{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: black;
+}
+ .btn-1{
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #F54748;
+  color: white;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:hover{
+  background-color: #999999;
+}
+/*=====Banner end======*/
+
+.product .img-fluid{
+  width: 300px;
+  height: 300px;
+}
+.product{
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+.product img{
+  transition: 0.3s all;
+}
+.product:hover img{
+  opacity: 0.7;
+}
+.product .btn-2{
+  transform: rotateY(20px);
+  opacity: 0;
+  transition: 0.3s all;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #F54748;
+  color: white;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}

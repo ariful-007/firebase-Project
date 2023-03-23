@@ -37,11 +37,12 @@ const Login = () => {
     return (
       <div>
          <ToastContainer />
-         <h1 className=' text-center text-danger h4 fw-bold mt-3'>LOGIN</h1>
-        <div className="container">
-         
-        <div className="row">
-            <div className="col-lg-6 offset-3">
+        <div className="container ">
+
+        <div className="row login_section ">
+            <div className="col-lg-6 offset-3 main">
+                <div className="inner">
+                <h1 className=' text-center text-danger h4 fw-bold mt-3'>LOGIN</h1>
 
             <Form onSubmit={handleLogin}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -60,6 +61,8 @@ const Login = () => {
                     Login
                 </Button>
             </Form>
+                </div>
+        
             </div>
         </div>
       </div>
